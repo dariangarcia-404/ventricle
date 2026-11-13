@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ventricle"
+dynamic = ["version"]
+description = "Research-only, auditable cardiac MRI (CMR) measurements from DICOM: volumes, flow, T1/ECV, LGE."
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{ name = "Darian Garcia" }]
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.22", "pillow>=9"]
+keywords = ["cardiac-mri", "cmr", "dicom", "medical-imaging", "research"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Education",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Medical Science Apps.",
+  "Topic :: Scientific/Engineering :: Image Processing",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+ventricle = "ventricle.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/dariangarcia-404/ventricle"
+Issues = "https://github.com/dariangarcia-404/ventricle/issues"
+
+[tool.setuptools.dynamic]
+version = { attr = "ventricle.__version__" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "tests"]

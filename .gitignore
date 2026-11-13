@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+
+# Never commit patient data or measurement outputs
+*.dcm
+*.DCM
+*.ima
+*.IMA
+DICOMDIR
+DICOM/
+*.nii
+*.nii.gz
+ventricle-output/
+cmr_*output*/
+rois.json
+results.json
+
+.DS_Store

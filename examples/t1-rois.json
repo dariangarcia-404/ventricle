@@ -1,0 +1,6 @@
+{
+  "native_myocardium": {"x": 130.0, "y": 110.0, "radius": 4.0},
+  "native_blood": {"x": 118.0, "y": 100.0, "radius": 6.0},
+  "post_myocardium": {"x": 130.0, "y": 110.0, "radius": 4.0},
+  "post_blood": {"x": 118.0, "y": 100.0, "radius": 6.0}
+}

@@ -1,0 +1,6 @@
+{
+  "pulmonary": {"x": 101.0, "y": 88.0, "radius": 9.5},
+  "pulmonary_background": {"x": 60.0, "y": 140.0, "radius": 12.0},
+  "aorta": {"x": 110.0, "y": 102.0, "radius": 8.0},
+  "aorta_background": {"x": 60.0, "y": 140.0, "radius": 12.0}
+}
