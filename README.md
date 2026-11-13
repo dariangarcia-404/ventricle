@@ -25,7 +25,7 @@ and an overlay image, so you can check it yourself.
 
 ## Install
 
-Requires Python 3.9+ with NumPy and Pillow. The interactive pickers use Tk, which ships
+Requires Python 3.10+ with NumPy and Pillow. The interactive pickers use Tk, which ships
 with python.org and most Linux Python builds. With Homebrew Python, also run
 `brew install python-tk`.
 

@@ -10,7 +10,7 @@ readme = "README.md"
 license = "Apache-2.0"
 license-files = ["LICENSE", "NOTICE"]
 authors = [{ name = "Darian Garcia" }]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = ["numpy>=1.22", "pillow>=9"]
 keywords = ["cardiac-mri", "cmr", "dicom", "medical-imaging", "research"]
 classifiers = [
